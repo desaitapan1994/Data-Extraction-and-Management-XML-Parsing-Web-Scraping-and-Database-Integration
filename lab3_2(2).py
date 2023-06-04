@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 presidents = []
 ahrefs = []
-url = 'https://www.infoplease.com/homework-help/history/collected-state-union-addresses-us-presidents'
+url = 'https://www.infoplease.com'
 response = requests.get(url)
 soup = BeautifulSoup(response.content,'lxml')
 links = soup.find_all('dt')
