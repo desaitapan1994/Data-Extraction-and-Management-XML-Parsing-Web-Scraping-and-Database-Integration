@@ -1,1 +1,3 @@
 # Data-Extraction-and-Management-XML-Parsing-Web-Scraping-and-Database-Integration
+
+The script parses an XML file containing book and paper information, extracting relevant data and saving it to a CSV file.Then it performs web scraping on a webpage to extract State of the Union addresses of US Presidents, saving the speech details to a CSV file and creating separate text files for each speech.This code connects to a SQL Server database and creates tables for books and authors if they don't exist. Later It inserts data from CSV files into the respective tables, ensuring the changes are committed to the database.
